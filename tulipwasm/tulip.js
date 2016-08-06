@@ -451,12 +451,12 @@ Module.expectedDataFileDownloads++;
     var byteArray = new Uint8Array(arrayBuffer);
     var compressedData = {
      "data": null,
-     "cachedOffset": 741496,
+     "cachedOffset": 687637,
      "cachedIndexes": [ -1, -1 ],
      "cachedChunks": [ null, null ],
-     "offsets": [ 0, 2048, 4096, 6144, 8192, 10240, 12288, 14321, 15722, 16898, 18524, 19437, 20762, 22334, 23395, 24854, 25762, 27378, 28694, 30590, 31834, 33254, 34697, 35325, 35830, 36310, 37115, 38974, 40682, 42126, 43713, 45527, 47011, 48965, 50946, 52904, 54809, 56704, 58583, 60536, 62376, 64292, 66246, 68056, 69869, 71659, 73464, 75153, 76950, 78664, 80495, 82483, 84451, 86410, 88320, 90076, 91787, 93486, 95408, 97321, 99165, 100868, 102668, 104381, 106376, 108244, 109961, 111698, 113369, 115084, 116848, 118665, 120561, 122501, 124486, 126448, 128321, 130153, 132010, 133918, 135790, 137679, 139375, 141025, 142858, 144627, 146348, 148008, 149711, 151486, 153234, 155097, 156992, 158855, 160571, 162468, 164399, 166186, 167994, 169773, 171348, 173214, 175115, 176944, 178877, 180581, 182421, 184313, 186189, 188124, 190089, 192030, 193819, 195407, 196885, 198384, 199854, 201324, 202947, 204565, 206099, 207427, 209123, 211001, 212750, 214581, 216478, 218272, 219836, 221283, 222639, 223858, 224915, 226255, 227907, 229672, 231503, 233270, 235268, 236988, 238883, 240853, 242777, 244736, 246259, 247678, 249359, 250987, 252622, 254233, 256005, 257848, 259172, 260684, 262162, 263815, 265417, 266729, 267862, 269566, 271323, 272931, 274724, 275896, 277750, 278874, 279992, 281437, 282508, 283920, 284868, 286323, 287792, 289202, 290620, 292097, 293834, 295723, 297619, 299656, 301659, 303275, 305248, 307180, 308985, 310941, 312375, 313877, 314695, 316408, 318325, 320151, 321758, 323215, 324859, 326804, 328577, 329983, 331605, 332957, 334518, 336298, 337881, 339558, 341212, 342801, 343727, 345008, 346647, 348470, 350106, 350824, 351324, 351766, 352223, 352600, 353493, 354957, 356486, 357516, 358809, 360197, 362009, 363996, 365721, 367650, 369484, 371314, 373093, 374178, 375927, 377765, 379327, 380962, 382699, 384569, 385472, 386979, 388931, 390846, 391879, 393454, 395006, 396312, 397880, 399434, 400961, 402717, 404556, 405783, 406476, 408393, 410060, 411847, 413663, 415173, 416137, 416890, 417699, 418388, 419142, 419802, 420442, 420993, 421739, 422393, 423390, 424202, 425003, 425745, 426337, 427188, 427947, 428721, 429327, 429987, 430875, 431910, 432938, 433923, 435016, 436185, 437133, 438557, 440426, 441657, 442786, 443742, 444717, 446010, 447476, 449008, 450326, 451932, 453564, 455196, 456852, 458189, 459589, 461025, 462375, 463601, 464904, 466353, 467697, 469335, 470750, 472445, 474115, 475377, 476555, 478135, 479070, 480304, 481032, 482358, 483520, 484558, 486113, 487698, 489302, 490789, 492327, 493893, 495493, 497065, 499113, 501161, 503209, 505257, 507305, 509242, 511299, 513347, 515395, 517443, 519419, 521467, 522727, 523916, 525283, 526538, 527889, 529391, 530993, 532789, 534837, 536885, 538933, 540981, 543029, 545011, 546185, 547266, 548438, 549492, 550544, 551706, 552757, 553820, 554886, 555954, 557108, 558292, 559427, 560543, 561627, 562676, 563759, 564922, 566022, 567074, 568381, 569677, 570595, 571385, 573064, 574786, 576356, 578404, 580405, 582374, 584376, 586287, 588261, 590198, 592067, 594003, 595935, 597910, 599632, 601520, 603318, 605161, 607065, 608690, 610491, 612283, 614255, 616177, 618136, 620092, 622044, 623990, 625733, 627239, 628315, 629863, 631487, 633e3, 634593, 635889, 637263, 638715, 640438, 642138, 643861, 645698, 647556, 649287, 651029, 652821, 654498, 656166, 657910, 659652, 660697, 662009, 663550, 664902, 666639, 668425, 669974, 671607, 673196, 674729, 676636, 678521, 680458, 682483, 684108, 685957, 687895, 689090, 690939, 692693, 694094, 696015, 697876, 699540, 701393, 703281, 704946, 706738, 708627, 710415, 712015, 713622, 715328, 717067, 718616, 720336, 721874, 723614, 725569, 727540, 728855, 730778, 732419, 733851, 735452, 737126, 738864, 740536 ],
-     "sizes": [ 2048, 2048, 2048, 2048, 2048, 2048, 2033, 1401, 1176, 1626, 913, 1325, 1572, 1061, 1459, 908, 1616, 1316, 1896, 1244, 1420, 1443, 628, 505, 480, 805, 1859, 1708, 1444, 1587, 1814, 1484, 1954, 1981, 1958, 1905, 1895, 1879, 1953, 1840, 1916, 1954, 1810, 1813, 1790, 1805, 1689, 1797, 1714, 1831, 1988, 1968, 1959, 1910, 1756, 1711, 1699, 1922, 1913, 1844, 1703, 1800, 1713, 1995, 1868, 1717, 1737, 1671, 1715, 1764, 1817, 1896, 1940, 1985, 1962, 1873, 1832, 1857, 1908, 1872, 1889, 1696, 1650, 1833, 1769, 1721, 1660, 1703, 1775, 1748, 1863, 1895, 1863, 1716, 1897, 1931, 1787, 1808, 1779, 1575, 1866, 1901, 1829, 1933, 1704, 1840, 1892, 1876, 1935, 1965, 1941, 1789, 1588, 1478, 1499, 1470, 1470, 1623, 1618, 1534, 1328, 1696, 1878, 1749, 1831, 1897, 1794, 1564, 1447, 1356, 1219, 1057, 1340, 1652, 1765, 1831, 1767, 1998, 1720, 1895, 1970, 1924, 1959, 1523, 1419, 1681, 1628, 1635, 1611, 1772, 1843, 1324, 1512, 1478, 1653, 1602, 1312, 1133, 1704, 1757, 1608, 1793, 1172, 1854, 1124, 1118, 1445, 1071, 1412, 948, 1455, 1469, 1410, 1418, 1477, 1737, 1889, 1896, 2037, 2003, 1616, 1973, 1932, 1805, 1956, 1434, 1502, 818, 1713, 1917, 1826, 1607, 1457, 1644, 1945, 1773, 1406, 1622, 1352, 1561, 1780, 1583, 1677, 1654, 1589, 926, 1281, 1639, 1823, 1636, 718, 500, 442, 457, 377, 893, 1464, 1529, 1030, 1293, 1388, 1812, 1987, 1725, 1929, 1834, 1830, 1779, 1085, 1749, 1838, 1562, 1635, 1737, 1870, 903, 1507, 1952, 1915, 1033, 1575, 1552, 1306, 1568, 1554, 1527, 1756, 1839, 1227, 693, 1917, 1667, 1787, 1816, 1510, 964, 753, 809, 689, 754, 660, 640, 551, 746, 654, 997, 812, 801, 742, 592, 851, 759, 774, 606, 660, 888, 1035, 1028, 985, 1093, 1169, 948, 1424, 1869, 1231, 1129, 956, 975, 1293, 1466, 1532, 1318, 1606, 1632, 1632, 1656, 1337, 1400, 1436, 1350, 1226, 1303, 1449, 1344, 1638, 1415, 1695, 1670, 1262, 1178, 1580, 935, 1234, 728, 1326, 1162, 1038, 1555, 1585, 1604, 1487, 1538, 1566, 1600, 1572, 2048, 2048, 2048, 2048, 2048, 1937, 2057, 2048, 2048, 2048, 1976, 2048, 1260, 1189, 1367, 1255, 1351, 1502, 1602, 1796, 2048, 2048, 2048, 2048, 2048, 1982, 1174, 1081, 1172, 1054, 1052, 1162, 1051, 1063, 1066, 1068, 1154, 1184, 1135, 1116, 1084, 1049, 1083, 1163, 1100, 1052, 1307, 1296, 918, 790, 1679, 1722, 1570, 2048, 2001, 1969, 2002, 1911, 1974, 1937, 1869, 1936, 1932, 1975, 1722, 1888, 1798, 1843, 1904, 1625, 1801, 1792, 1972, 1922, 1959, 1956, 1952, 1946, 1743, 1506, 1076, 1548, 1624, 1513, 1593, 1296, 1374, 1452, 1723, 1700, 1723, 1837, 1858, 1731, 1742, 1792, 1677, 1668, 1744, 1742, 1045, 1312, 1541, 1352, 1737, 1786, 1549, 1633, 1589, 1533, 1907, 1885, 1937, 2025, 1625, 1849, 1938, 1195, 1849, 1754, 1401, 1921, 1861, 1664, 1853, 1888, 1665, 1792, 1889, 1788, 1600, 1607, 1706, 1739, 1549, 1720, 1538, 1740, 1955, 1971, 1315, 1923, 1641, 1432, 1601, 1674, 1738, 1672, 960 ],
-     "successes": [ 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+     "offsets": [ 0, 1603, 2660, 4358, 5945, 7621, 8890, 10373, 11624, 13105, 14917, 16620, 18370, 20143, 22040, 23650, 25552, 27327, 28860, 30489, 32276, 34084, 34991, 36322, 37835, 39285, 40961, 42605, 44204, 45875, 47255, 49007, 50880, 52808, 54754, 56673, 58457, 60281, 62255, 63488, 65341, 66914, 68501, 70458, 72250, 73968, 75755, 77638, 79376, 81150, 83031, 84817, 86459, 87894, 89583, 91438, 92941, 94463, 96265, 97998, 1e5, 101774, 103353, 105279, 106923, 108186, 109913, 111664, 113306, 114941, 116783, 118080, 119435, 120933, 121818, 123307, 124729, 125790, 127302, 128220, 129842, 131287, 133100, 134351, 135880, 137132, 137788, 138305, 138722, 139777, 141607, 143220, 144837, 146333, 148149, 149755, 151731, 153689, 155671, 157594, 159484, 161404, 163357, 165219, 167145, 169062, 170898, 172729, 174542, 176331, 178004, 179757, 181444, 183311, 185304, 187304, 189250, 191166, 192914, 194676, 196404, 198391, 200220, 202060, 203772, 205593, 207329, 209268, 211144, 212806, 214554, 216267, 217982, 219775, 221610, 223541, 225449, 227419, 229372, 231212, 233032, 234884, 236827, 238716, 240599, 242294, 243948, 245760, 247608, 249326, 250996, 252648, 254460, 256189, 258054, 259944, 261774, 263544, 265395, 267306, 269099, 270857, 272557, 274180, 276070, 277929, 279776, 281584, 283318, 285144, 287035, 288911, 290852, 292787, 294714, 296475, 298007, 299473, 300935, 302332, 303806, 305521, 307113, 308706, 309892, 311701, 313581, 315335, 317198, 319032, 320832, 322308, 323794, 325088, 326251, 327336, 328674, 330269, 332079, 333860, 335727, 337707, 339423, 341307, 343286, 345202, 347155, 348684, 350063, 351724, 353327, 354961, 356602, 358385, 360246, 361491, 362938, 364446, 366088, 367740, 368917, 370197, 371908, 373644, 375182, 376991, 378182, 379930, 381049, 382295, 383750, 384798, 386276, 387189, 388646, 390054, 391507, 392824, 394402, 396223, 398105, 400033, 402034, 403911, 405652, 407593, 409521, 411346, 413285, 414565, 416168, 416822, 418634, 420595, 422347, 423998, 425468, 427123, 429047, 430765, 432162, 433811, 435166, 436708, 438444, 440093, 441807, 443432, 445018, 446004, 447288, 448921, 450750, 452297, 452882, 453351, 453803, 454237, 454612, 455721, 457145, 458670, 459829, 461028, 462451, 464345, 466307, 468055, 469902, 471735, 473561, 475298, 476338, 478119, 479839, 481534, 483235, 485053, 486847, 487567, 489323, 491256, 493045, 494036, 495669, 497306, 498569, 500125, 501679, 503205, 504957, 506788, 507853, 508700, 510626, 512361, 514137, 515936, 517542, 518368, 519162, 519952, 520658, 521445, 522034, 522701, 523259, 524035, 524645, 525637, 526430, 527246, 528035, 528610, 529546, 530319, 531058, 531679, 532264, 533154, 534176, 535229, 536220, 537323, 538486, 539415, 541020, 542794, 543899, 545050, 546018, 546988, 548343, 549809, 551286, 552582, 554261, 555895, 557513, 559096, 560429, 561837, 563203, 564511, 565783, 567139, 568538, 569924, 571539, 573030, 574748, 576396, 577720, 578795, 580374, 581251, 582377, 583213, 584502, 585548, 586772, 588322, 589916, 591506, 592993, 594526, 596122, 597729, 599366, 601414, 603469, 605517, 607565, 609622, 611542, 613599, 615647, 617695, 619719, 621759, 623807, 624974, 626128, 627515, 628696, 630023, 631519, 633140, 635010, 637058, 639106, 641154, 643202, 645250, 647124, 648281, 649357, 650531, 651585, 652649, 653789, 654841, 655912, 656985, 658102, 659234, 660427, 661543, 662664, 663738, 664788, 665873, 667067, 668155, 669223, 670535, 671736, 672640, 673555, 675258, 677306, 679354, 681402, 683450, 685498, 687546 ],
+     "sizes": [ 1603, 1057, 1698, 1587, 1676, 1269, 1483, 1251, 1481, 1812, 1703, 1750, 1773, 1897, 1610, 1902, 1775, 1533, 1629, 1787, 1808, 907, 1331, 1513, 1450, 1676, 1644, 1599, 1671, 1380, 1752, 1873, 1928, 1946, 1919, 1784, 1824, 1974, 1233, 1853, 1573, 1587, 1957, 1792, 1718, 1787, 1883, 1738, 1774, 1881, 1786, 1642, 1435, 1689, 1855, 1503, 1522, 1802, 1733, 2002, 1774, 1579, 1926, 1644, 1263, 1727, 1751, 1642, 1635, 1842, 1297, 1355, 1498, 885, 1489, 1422, 1061, 1512, 918, 1622, 1445, 1813, 1251, 1529, 1252, 656, 517, 417, 1055, 1830, 1613, 1617, 1496, 1816, 1606, 1976, 1958, 1982, 1923, 1890, 1920, 1953, 1862, 1926, 1917, 1836, 1831, 1813, 1789, 1673, 1753, 1687, 1867, 1993, 2e3, 1946, 1916, 1748, 1762, 1728, 1987, 1829, 1840, 1712, 1821, 1736, 1939, 1876, 1662, 1748, 1713, 1715, 1793, 1835, 1931, 1908, 1970, 1953, 1840, 1820, 1852, 1943, 1889, 1883, 1695, 1654, 1812, 1848, 1718, 1670, 1652, 1812, 1729, 1865, 1890, 1830, 1770, 1851, 1911, 1793, 1758, 1700, 1623, 1890, 1859, 1847, 1808, 1734, 1826, 1891, 1876, 1941, 1935, 1927, 1761, 1532, 1466, 1462, 1397, 1474, 1715, 1592, 1593, 1186, 1809, 1880, 1754, 1863, 1834, 1800, 1476, 1486, 1294, 1163, 1085, 1338, 1595, 1810, 1781, 1867, 1980, 1716, 1884, 1979, 1916, 1953, 1529, 1379, 1661, 1603, 1634, 1641, 1783, 1861, 1245, 1447, 1508, 1642, 1652, 1177, 1280, 1711, 1736, 1538, 1809, 1191, 1748, 1119, 1246, 1455, 1048, 1478, 913, 1457, 1408, 1453, 1317, 1578, 1821, 1882, 1928, 2001, 1877, 1741, 1941, 1928, 1825, 1939, 1280, 1603, 654, 1812, 1961, 1752, 1651, 1470, 1655, 1924, 1718, 1397, 1649, 1355, 1542, 1736, 1649, 1714, 1625, 1586, 986, 1284, 1633, 1829, 1547, 585, 469, 452, 434, 375, 1109, 1424, 1525, 1159, 1199, 1423, 1894, 1962, 1748, 1847, 1833, 1826, 1737, 1040, 1781, 1720, 1695, 1701, 1818, 1794, 720, 1756, 1933, 1789, 991, 1633, 1637, 1263, 1556, 1554, 1526, 1752, 1831, 1065, 847, 1926, 1735, 1776, 1799, 1606, 826, 794, 790, 706, 787, 589, 667, 558, 776, 610, 992, 793, 816, 789, 575, 936, 773, 739, 621, 585, 890, 1022, 1053, 991, 1103, 1163, 929, 1605, 1774, 1105, 1151, 968, 970, 1355, 1466, 1477, 1296, 1679, 1634, 1618, 1583, 1333, 1408, 1366, 1308, 1272, 1356, 1399, 1386, 1615, 1491, 1718, 1648, 1324, 1075, 1579, 877, 1126, 836, 1289, 1046, 1224, 1550, 1594, 1590, 1487, 1533, 1596, 1607, 1637, 2048, 2055, 2048, 2048, 2057, 1920, 2057, 2048, 2048, 2024, 2040, 2048, 1167, 1154, 1387, 1181, 1327, 1496, 1621, 1870, 2048, 2048, 2048, 2048, 2048, 1874, 1157, 1076, 1174, 1054, 1064, 1140, 1052, 1071, 1073, 1117, 1132, 1193, 1116, 1121, 1074, 1050, 1085, 1194, 1088, 1068, 1312, 1201, 904, 915, 1703, 2048, 2048, 2048, 2048, 2048, 2048, 91 ],
+     "successes": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1 ]
     };
     compressedData.data = byteArray;
     assert(typeof LZ4 === "object", "LZ4 not present - was your app build with  -s LZ4=1  ?");
@@ -490,35 +490,29 @@ Module.expectedDataFileDownloads++;
    "audio": 0,
    "start": 0,
    "crunched": 0,
-   "end": 12513,
-   "filename": "/resources/radialGradientTexture.png"
+   "end": 142072,
+   "filename": "/resources/fontawesome-webfont.ttf"
   }, {
    "audio": 0,
-   "start": 12513,
+   "start": 142072,
    "crunched": 0,
-   "end": 13311,
-   "filename": "/resources/cylinderTexture.png"
-  }, {
-   "audio": 0,
-   "start": 13311,
-   "crunched": 0,
-   "end": 769383,
+   "end": 898144,
    "filename": "/resources/DejaVuSans.ttf"
   }, {
    "audio": 0,
-   "start": 769383,
+   "start": 898144,
    "crunched": 0,
-   "end": 827847,
-   "filename": "/resources/Inconsolata.otf"
+   "end": 898942,
+   "filename": "/resources/cylinderTexture.png"
   }, {
    "audio": 0,
-   "start": 827847,
+   "start": 898942,
    "crunched": 0,
-   "end": 969919,
-   "filename": "/resources/fontawesome-webfont.ttf"
+   "end": 911455,
+   "filename": "/resources/radialGradientTexture.png"
   } ],
-  "remote_package_size": 745592,
-  "package_uuid": "090ca9c5-d3b5-48e2-bb2b-5bca59715100"
+  "remote_package_size": 691733,
+  "package_uuid": "15087fae-4047-4de9-a0fd-4b42da40eaa7"
  });
 }))();
 Module.workerMode = workerMode;
@@ -1613,146 +1607,14 @@ Module["preloadedAudios"] = {};
 var memoryInitializer = null;
 var ASM_CONSTS = [];
 STATIC_BASE = 1024;
-STATICTOP = STATIC_BASE + 704384;
+STATICTOP = STATIC_BASE + 704336;
 __ATINIT__.push({
  func: (function() {
   __GLOBAL__I_000101();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_DepthMetric_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_AutoSize_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_ImportPajek_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFDominance_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFStressMajorization_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Outerplanar_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_HierarchicalClustering_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_ImprovedWalker_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFBertaultLayout_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_BiconnectedComponent_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Acyclic_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Random_cpp_4356();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_GMLExport_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_TreeReingoldAndTilfordExtended_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_ConnectedComponentPacking_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_SpanningTreeSelection_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFFrutchermanReingold_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_PlanarGraph_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFSugiyama_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFDavidsonHarel_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_LouvainClustering_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_FastOverlapRemoval_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFBalloon_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_SmallWorldGraph_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_LeafMetric_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Triconnected_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFFastMultipoleEmbedder_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_RandomTree_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFUpwardPlanarization_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_RandomSimpleGraph_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFTree_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Tree_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_EqualValueClustering_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Random_cpp();
+  __GLOBAL__sub_I_StrahlerMetric_cpp();
  })
 }, {
  func: (function() {
@@ -1760,7 +1622,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_PageRank_cpp();
+  __GLOBAL__sub_I_TreeReingoldAndTilfordExtended_cpp();
  })
 }, {
  func: (function() {
@@ -1768,43 +1630,27 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_ReachableSubGraphSelection_cpp();
+  __GLOBAL__sub_I_OGDFVisibility_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_ColorMapping_cpp();
+  __GLOBAL__sub_I_OGDFTileToRowsPacking_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Grid_cpp();
+  __GLOBAL__sub_I_dotImport_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Dendrogram_cpp();
+  __GLOBAL__sub_I_RandomGraph_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_NodeMetric_cpp();
+  __GLOBAL__sub_I_RandomTreeGeneral_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_BubbleTree_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_MCLClustering_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_CompleteGraph_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_GEMLayout_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Planarity_cpp();
+  __GLOBAL__sub_I_QuotientClustering_cpp();
  })
 }, {
  func: (function() {
@@ -1812,35 +1658,27 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Tutte_cpp();
+  __GLOBAL__sub_I_OGDFKamadaKawai_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_AdjacencyMatrixImport_cpp();
+  __GLOBAL__sub_I_Connected_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_TreeLeaf_cpp();
+  __GLOBAL__sub_I_BetweennessCentrality_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_KCores_cpp();
+  __GLOBAL__sub_I_OGDFTree_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_VoronoiDiagram_cpp();
+  __GLOBAL__sub_I_DepthMetric_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_DelaunayTriangulation_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_ClusterMetric_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_QuadTree_cpp();
+  __GLOBAL__sub_I_OGDFGemFrick_cpp();
  })
 }, {
  func: (function() {
@@ -1848,35 +1686,27 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_DagLevelMetric_cpp();
+  __GLOBAL__sub_I_DelaunayTriangulation_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_OGDFMMMExampleFastLayout_cpp();
+  __GLOBAL__sub_I_Planarity_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Biconnected_cpp();
+  __GLOBAL__sub_I_OGDFDominance_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_LoopSelection_cpp();
+  __GLOBAL__sub_I_OGDFFrutchermanReingold_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_SquarifiedTreeMap_cpp();
+  __GLOBAL__sub_I_ReachableSubGraphSelection_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_WelshPowell_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_PerfectLayout_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_InducedSubGraphSelection_cpp();
+  __GLOBAL__sub_I_OGDFBertaultLayout_cpp();
  })
 }, {
  func: (function() {
@@ -1896,35 +1726,35 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_OctTree_cpp();
+  __GLOBAL__sub_I_IdMetric_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_SphereUtils_cpp();
+  __GLOBAL__sub_I_VoronoiDiagram_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_GMLImport_cpp();
+  __GLOBAL__sub_I_Dendrogram_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_OGDFMMMExampleNoTwistLayout_cpp();
+  __GLOBAL__sub_I_Random_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_ConeTreeExtended_cpp();
+  __GLOBAL__sub_I_OGDFSugiyama_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_OGDFVisibility_cpp();
+  __GLOBAL__sub_I_GMLExport_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_MixedModel_cpp();
+  __GLOBAL__sub_I_HierarchicalClustering_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_LinkCommunities_cpp();
+  __GLOBAL__sub_I_Tree_cpp();
  })
 }, {
  func: (function() {
@@ -1932,7 +1762,39 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_TreeRadial_cpp();
+  __GLOBAL__sub_I_Triconnected_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_MCLClustering_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_NodeMetric_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_ImprovedWalker_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFCircular_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_SphereUtils_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFBalloon_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFPlanarizationGrid_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_SpanningTreeSelection_cpp();
  })
 }, {
  func: (function() {
@@ -1940,7 +1802,139 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
+  __GLOBAL__sub_I_CompleteGraph_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFMMMExampleFastLayout_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_GMLImport_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_AutoSize_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_LeafMetric_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_SquarifiedTreeMap_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_reverseedges_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_EqualValueClustering_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_BubbleTree_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_AdjacencyMatrixImport_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_StrengthMetric_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_RandomTree_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_FastOverlapRemoval_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_ConnectedComponent_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_MetricMapping_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_LinkCommunities_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_SpanningDagSelection_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_MultipleEdgeSelection_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFFastMultipoleEmbedder_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_HierarchicalGraph_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFMMMExampleNoTwistLayout_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_LouvainClustering_cpp();
+ })
+}, {
+ func: (function() {
   __GLOBAL__sub_I_Simple_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_DegreeMetric_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_SmallWorldGraph_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_CompleteTree_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFUpwardPlanarization_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_InducedSubGraphSelection_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_StrongComponent_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_RandomSimpleGraph_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFDavidsonHarel_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_Outerplanar_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_PageRank_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_ConeTreeExtended_cpp();
  })
 }, {
  func: (function() {
@@ -1952,99 +1946,31 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_MultipleEdgeSelection_cpp();
+  __GLOBAL__sub_I_Random_cpp_6157();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_OGDFFm3_cpp();
+  __GLOBAL__sub_I_Acyclic_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Eccentricity_cpp();
+  __GLOBAL__sub_I_WelshPowell_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_OGDFFastMultipoleMultilevelEmbedder_cpp();
+  __GLOBAL__sub_I_Grip_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_RandomGraph_cpp();
+  __GLOBAL__sub_I_MISFiltering_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_StrongComponent_cpp();
+  __GLOBAL__sub_I_Distances_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_BetweennessCentrality_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_StrengthMetric_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_StrahlerMetric_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_ConnectedComponent_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_reverseedges_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFKamadaKawai_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFGemFrick_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_HierarchicalGraph_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFPlanarizationGrid_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_RandomTreeGeneral_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_IdMetric_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_QuotientClustering_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_CompleteTree_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFPlanarizationLayout_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_dotImport_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_DegreeMetric_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_OGDFCircular_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_PolyominoPacking_cpp();
+  __GLOBAL__sub_I_GEMLayout_cpp();
  })
 }, {
  func: (function() {
@@ -2052,11 +1978,79 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
+  __GLOBAL__sub_I_Grid_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_LoopSelection_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_MixedModel_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_TreeLeaf_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFMMMExampleNiceLayout_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_BiconnectedComponent_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_QuadTree_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_PolyominoPacking_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_Tutte_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFFm3_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_TreeRadial_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_DagLevelMetric_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFPlanarizationLayout_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_ConnectedComponentPacking_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_CurveEdges_cpp();
+ })
+}, {
+ func: (function() {
   __GLOBAL__sub_I_LinLogLayout_cpp();
  })
 }, {
  func: (function() {
+  __GLOBAL__sub_I_OctTree_cpp();
+ })
+}, {
+ func: (function() {
   __GLOBAL__sub_I_LinLogAlgorithm_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_ClusterMetric_cpp();
  })
 }, {
  func: (function() {
@@ -2284,7 +2278,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_GraphIO_svg_cpp();
+  __GLOBAL__sub_I_Logger_cpp();
  })
 }, {
  func: (function() {
@@ -2320,27 +2314,7 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_LayoutStandards_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_config_cpp();
- })
-}, {
- func: (function() {
-  __Z7my_loadv();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Logger_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_Ogml_cpp();
- })
-}, {
- func: (function() {
-  __GLOBAL__sub_I_TulipFontAwesome_cpp();
+  __GLOBAL__sub_I_CoinParamUtils_cpp();
  })
 }, {
  func: (function() {
@@ -2352,47 +2326,67 @@ __ATINIT__.push({
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_CoinParamUtils_cpp();
- })
-}, {
- func: (function() {
   __GLOBAL__sub_I_CglLandPValidator_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_OGDFTileToRowsPacking_cpp();
+  __Z7my_loadv();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Grip_cpp();
+  __GLOBAL__sub_I_TulipFontAwesome_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Distances_cpp();
+  __GLOBAL__sub_I_LayoutStandards_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_MISFiltering_cpp();
+  __GLOBAL__sub_I_config_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_Connected_cpp();
+  __GLOBAL__sub_I_Ogml_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_MetricMapping_cpp();
+  __GLOBAL__sub_I_GraphIO_svg_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_SpanningDagSelection_cpp();
+  __GLOBAL__sub_I_PerfectLayout_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_OGDFMMMExampleNiceLayout_cpp();
+  __GLOBAL__sub_I_Biconnected_cpp();
  })
 }, {
  func: (function() {
-  __GLOBAL__sub_I_CurveEdges_cpp();
+  __GLOBAL__sub_I_OGDFFastMultipoleMultilevelEmbedder_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_ColorMapping_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_ImportPajek_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_KCores_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_Eccentricity_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_OGDFStressMajorization_cpp();
+ })
+}, {
+ func: (function() {
+  __GLOBAL__sub_I_PlanarGraph_cpp();
  })
 }, {
  func: (function() {
@@ -2504,7 +2498,7 @@ __ATINIT__.push({
  })
 });
 memoryInitializer = "tulip.js.mem";
-var STATIC_BUMP = 704384;
+var STATIC_BUMP = 704336;
 var tempDoublePtr = STATICTOP;
 STATICTOP += 16;
 var GL = {
@@ -4049,6 +4043,8 @@ var NODEFS = {
   4098: "rs+"
  },
  flagsToPermissionString: (function(flags) {
+  flags &= ~2097152;
+  flags &= ~2048;
   flags &= ~32768;
   flags &= ~524288;
   if (flags in NODEFS.flagsToPermissionStringMap) {
@@ -11817,10 +11813,10 @@ var __GLOBAL__sub_I_OGDFDominance_cpp = Module["__GLOBAL__sub_I_OGDFDominance_cp
 var _StringProperty_setAllEdgeValue = Module["_StringProperty_setAllEdgeValue"] = asm["_StringProperty_setAllEdgeValue"];
 var __GLOBAL__sub_I_ImportPajek_cpp = Module["__GLOBAL__sub_I_ImportPajek_cpp"] = asm["__GLOBAL__sub_I_ImportPajek_cpp"];
 var _Graph_deg = Module["_Graph_deg"] = asm["_Graph_deg"];
-var __GLOBAL__sub_I_SmallWorldGraph_cpp = Module["__GLOBAL__sub_I_SmallWorldGraph_cpp"] = asm["__GLOBAL__sub_I_SmallWorldGraph_cpp"];
+var __GLOBAL__sub_I_Circular_cpp = Module["__GLOBAL__sub_I_Circular_cpp"] = asm["__GLOBAL__sub_I_Circular_cpp"];
 var __GLOBAL__sub_I_ConnectedComponentPacking_cpp = Module["__GLOBAL__sub_I_ConnectedComponentPacking_cpp"] = asm["__GLOBAL__sub_I_ConnectedComponentPacking_cpp"];
 var _ColorVectorProperty_getEdgeValue = Module["_ColorVectorProperty_getEdgeValue"] = asm["_ColorVectorProperty_getEdgeValue"];
-var __GLOBAL__sub_I_Random_cpp = Module["__GLOBAL__sub_I_Random_cpp"] = asm["__GLOBAL__sub_I_Random_cpp"];
+var __GLOBAL__sub_I_QuotientClustering_cpp = Module["__GLOBAL__sub_I_QuotientClustering_cpp"] = asm["__GLOBAL__sub_I_QuotientClustering_cpp"];
 var __GLOBAL__sub_I_OGDFCircular_cpp = Module["__GLOBAL__sub_I_OGDFCircular_cpp"] = asm["__GLOBAL__sub_I_OGDFCircular_cpp"];
 var _IntegerVectorProperty_setAllNodeValue = Module["_IntegerVectorProperty_setAllNodeValue"] = asm["_IntegerVectorProperty_setAllNodeValue"];
 var _setCanvasGraph = Module["_setCanvasGraph"] = asm["_setCanvasGraph"];
@@ -11899,7 +11895,7 @@ var _algorithmsList = Module["_algorithmsList"] = asm["_algorithmsList"];
 var __GLOBAL__sub_I_OGDFTree_cpp = Module["__GLOBAL__sub_I_OGDFTree_cpp"] = asm["__GLOBAL__sub_I_OGDFTree_cpp"];
 var _pthread_mutex_trylock = Module["_pthread_mutex_trylock"] = asm["_pthread_mutex_trylock"];
 var _DoubleProperty_setAllNodeValue = Module["_DoubleProperty_setAllNodeValue"] = asm["_DoubleProperty_setAllNodeValue"];
-var __GLOBAL__sub_I_QuotientClustering_cpp = Module["__GLOBAL__sub_I_QuotientClustering_cpp"] = asm["__GLOBAL__sub_I_QuotientClustering_cpp"];
+var __GLOBAL__sub_I_Random_cpp = Module["__GLOBAL__sub_I_Random_cpp"] = asm["__GLOBAL__sub_I_Random_cpp"];
 var ___cxx_global_var_init_1_327 = Module["___cxx_global_var_init_1_327"] = asm["___cxx_global_var_init_1_327"];
 var __GLOBAL__sub_I_OGDFPlanarizationLayout_cpp = Module["__GLOBAL__sub_I_OGDFPlanarizationLayout_cpp"] = asm["__GLOBAL__sub_I_OGDFPlanarizationLayout_cpp"];
 var _GlGraphRenderingParameters_setBillboardedNodes = Module["_GlGraphRenderingParameters_setBillboardedNodes"] = asm["_GlGraphRenderingParameters_setBillboardedNodes"];
@@ -11947,6 +11943,7 @@ var __GLOBAL__sub_I_QuadTree_cpp = Module["__GLOBAL__sub_I_QuadTree_cpp"] = asm[
 var _GlGraphInputData_getElementSrcAnchorSize = Module["_GlGraphInputData_getElementSrcAnchorSize"] = asm["_GlGraphInputData_getElementSrcAnchorSize"];
 var __GLOBAL__sub_I_GlyphsRenderer_cpp = Module["__GLOBAL__sub_I_GlyphsRenderer_cpp"] = asm["__GLOBAL__sub_I_GlyphsRenderer_cpp"];
 var _createLayoutProperty = Module["_createLayoutProperty"] = asm["_createLayoutProperty"];
+var __GLOBAL__sub_I_SmallWorldGraph_cpp = Module["__GLOBAL__sub_I_SmallWorldGraph_cpp"] = asm["__GLOBAL__sub_I_SmallWorldGraph_cpp"];
 var __GLOBAL__sub_I_InducedSubGraphSelection_cpp = Module["__GLOBAL__sub_I_InducedSubGraphSelection_cpp"] = asm["__GLOBAL__sub_I_InducedSubGraphSelection_cpp"];
 var _DoubleVectorProperty_setAllEdgeValue = Module["_DoubleVectorProperty_setAllEdgeValue"] = asm["_DoubleVectorProperty_setAllEdgeValue"];
 var __GLOBAL__sub_I_Connected_cpp = Module["__GLOBAL__sub_I_Connected_cpp"] = asm["__GLOBAL__sub_I_Connected_cpp"];
@@ -11967,6 +11964,7 @@ var _Camera_modelViewMatrix = Module["_Camera_modelViewMatrix"] = asm["_Camera_m
 var _saveSetjmp = Module["_saveSetjmp"] = asm["_saveSetjmp"];
 var _ColorVectorProperty_getNodeValue = Module["_ColorVectorProperty_getNodeValue"] = asm["_ColorVectorProperty_getNodeValue"];
 var __GLOBAL__sub_I_OGDFFrutchermanReingold_cpp = Module["__GLOBAL__sub_I_OGDFFrutchermanReingold_cpp"] = asm["__GLOBAL__sub_I_OGDFFrutchermanReingold_cpp"];
+var __GLOBAL__sub_I_GlGraph_cpp = Module["__GLOBAL__sub_I_GlGraph_cpp"] = asm["__GLOBAL__sub_I_GlGraph_cpp"];
 var __GLOBAL__sub_I_OGDFDavidsonHarel_cpp = Module["__GLOBAL__sub_I_OGDFDavidsonHarel_cpp"] = asm["__GLOBAL__sub_I_OGDFDavidsonHarel_cpp"];
 var __GLOBAL__sub_I_Delaunay_cpp = Module["__GLOBAL__sub_I_Delaunay_cpp"] = asm["__GLOBAL__sub_I_Delaunay_cpp"];
 var __GLOBAL__sub_I_FastOverlapRemoval_cpp = Module["__GLOBAL__sub_I_FastOverlapRemoval_cpp"] = asm["__GLOBAL__sub_I_FastOverlapRemoval_cpp"];
@@ -11978,7 +11976,7 @@ var _DoubleVectorProperty_getNodeVectorSize = Module["_DoubleVectorProperty_getN
 var _GlGraphInputData_getElementBorderColor = Module["_GlGraphInputData_getElementBorderColor"] = asm["_GlGraphInputData_getElementBorderColor"];
 var _StringVectorProperty_setNodeValue = Module["_StringVectorProperty_setNodeValue"] = asm["_StringVectorProperty_setNodeValue"];
 var __GLOBAL__sub_I_LouvainClustering_cpp = Module["__GLOBAL__sub_I_LouvainClustering_cpp"] = asm["__GLOBAL__sub_I_LouvainClustering_cpp"];
-var __GLOBAL__sub_I_ColorMapping_cpp = Module["__GLOBAL__sub_I_ColorMapping_cpp"] = asm["__GLOBAL__sub_I_ColorMapping_cpp"];
+var ___cxx_global_var_init_5_331 = Module["___cxx_global_var_init_5_331"] = asm["___cxx_global_var_init_5_331"];
 var _setGraphsHullsVisible = Module["_setGraphsHullsVisible"] = asm["_setGraphsHullsVisible"];
 var __GLOBAL__sub_I_OrientableLayout_cpp = Module["__GLOBAL__sub_I_OrientableLayout_cpp"] = asm["__GLOBAL__sub_I_OrientableLayout_cpp"];
 var __GLOBAL__sub_I_LinkCommunities_cpp = Module["__GLOBAL__sub_I_LinkCommunities_cpp"] = asm["__GLOBAL__sub_I_LinkCommunities_cpp"];
@@ -11998,7 +11996,6 @@ var __GLOBAL__sub_I_StrengthClustering_cpp = Module["__GLOBAL__sub_I_StrengthClu
 var _unholdObservers = Module["_unholdObservers"] = asm["_unholdObservers"];
 var __GLOBAL__sub_I_GlGraphInputData_cpp = Module["__GLOBAL__sub_I_GlGraphInputData_cpp"] = asm["__GLOBAL__sub_I_GlGraphInputData_cpp"];
 var __GLOBAL__sub_I_GEMLayout_cpp = Module["__GLOBAL__sub_I_GEMLayout_cpp"] = asm["__GLOBAL__sub_I_GEMLayout_cpp"];
-var __GLOBAL__sub_I_Circular_cpp = Module["__GLOBAL__sub_I_Circular_cpp"] = asm["__GLOBAL__sub_I_Circular_cpp"];
 var _Graph_existEdge = Module["_Graph_existEdge"] = asm["_Graph_existEdge"];
 var _Graph_getOutNodes = Module["_Graph_getOutNodes"] = asm["_Graph_getOutNodes"];
 var _BooleanVectorProperty_setAllEdgeValue = Module["_BooleanVectorProperty_setAllEdgeValue"] = asm["_BooleanVectorProperty_setAllEdgeValue"];
@@ -12039,7 +12036,6 @@ var _GlGraphInputData_setElementLabelPosition = Module["_GlGraphInputData_setEle
 var __GLOBAL__sub_I_RandomSimpleGraph_cpp = Module["__GLOBAL__sub_I_RandomSimpleGraph_cpp"] = asm["__GLOBAL__sub_I_RandomSimpleGraph_cpp"];
 var _sizeAlgorithmExists = Module["_sizeAlgorithmExists"] = asm["_sizeAlgorithmExists"];
 var _GlGraphRenderingParameters_setDisplayEdges = Module["_GlGraphRenderingParameters_setDisplayEdges"] = asm["_GlGraphRenderingParameters_setDisplayEdges"];
-var __GLOBAL__sub_I_GlQuadTreeLODCalculator_cpp = Module["__GLOBAL__sub_I_GlQuadTreeLODCalculator_cpp"] = asm["__GLOBAL__sub_I_GlQuadTreeLODCalculator_cpp"];
 var _ColorScale_setColorAtPos = Module["_ColorScale_setColorAtPos"] = asm["_ColorScale_setColorAtPos"];
 var __GLOBAL__sub_I_PropertyManager_cpp = Module["__GLOBAL__sub_I_PropertyManager_cpp"] = asm["__GLOBAL__sub_I_PropertyManager_cpp"];
 var _parseEdgesJSONData = Module["_parseEdgesJSONData"] = asm["_parseEdgesJSONData"];
@@ -12079,6 +12075,7 @@ var __GLOBAL__sub_I_Kruskal_cpp = Module["__GLOBAL__sub_I_Kruskal_cpp"] = asm["_
 var _i64Subtract = Module["_i64Subtract"] = asm["_i64Subtract"];
 var __GLOBAL__sub_I_GraphIO_svg_cpp = Module["__GLOBAL__sub_I_GraphIO_svg_cpp"] = asm["__GLOBAL__sub_I_GraphIO_svg_cpp"];
 var __GLOBAL__sub_I_Tree_cpp = Module["__GLOBAL__sub_I_Tree_cpp"] = asm["__GLOBAL__sub_I_Tree_cpp"];
+var ___cxx_global_var_init_27 = Module["___cxx_global_var_init_27"] = asm["___cxx_global_var_init_27"];
 var _layoutAlgorithmExists = Module["_layoutAlgorithmExists"] = asm["_layoutAlgorithmExists"];
 var __GLOBAL__sub_I_StlFunctions_cpp = Module["__GLOBAL__sub_I_StlFunctions_cpp"] = asm["__GLOBAL__sub_I_StlFunctions_cpp"];
 var __GLOBAL__sub_I_OGDFLayoutPluginBase_cpp = Module["__GLOBAL__sub_I_OGDFLayoutPluginBase_cpp"] = asm["__GLOBAL__sub_I_OGDFLayoutPluginBase_cpp"];
@@ -12176,7 +12173,6 @@ var ___cxa_can_catch = Module["___cxa_can_catch"] = asm["___cxa_can_catch"];
 var _GlGraphRenderingParameters_labelsScaled = Module["_GlGraphRenderingParameters_labelsScaled"] = asm["_GlGraphRenderingParameters_labelsScaled"];
 var _Graph_indeg = Module["_Graph_indeg"] = asm["_Graph_indeg"];
 var _Graph_getBooleanVectorProperty = Module["_Graph_getBooleanVectorProperty"] = asm["_Graph_getBooleanVectorProperty"];
-var __GLOBAL__sub_I_Random_cpp_4356 = Module["__GLOBAL__sub_I_Random_cpp_4356"] = asm["__GLOBAL__sub_I_Random_cpp_4356"];
 var _IntegerVectorProperty_getNodeDefaultValue = Module["_IntegerVectorProperty_getNodeDefaultValue"] = asm["_IntegerVectorProperty_getNodeDefaultValue"];
 var _GlGraphInputData_setElementBorderWidth = Module["_GlGraphInputData_setElementBorderWidth"] = asm["_GlGraphInputData_setElementBorderWidth"];
 var _LayoutProperty_getNodeValue = Module["_LayoutProperty_getNodeValue"] = asm["_LayoutProperty_getNodeValue"];
@@ -12188,7 +12184,7 @@ var ___cxx_global_var_init_29 = Module["___cxx_global_var_init_29"] = asm["___cx
 var __GLOBAL__sub_I_ParametricCurves_cpp = Module["__GLOBAL__sub_I_ParametricCurves_cpp"] = asm["__GLOBAL__sub_I_ParametricCurves_cpp"];
 var _createStringVectorProperty = Module["_createStringVectorProperty"] = asm["_createStringVectorProperty"];
 var ___cxx_global_var_init_21 = Module["___cxx_global_var_init_21"] = asm["___cxx_global_var_init_21"];
-var ___cxx_global_var_init_27 = Module["___cxx_global_var_init_27"] = asm["___cxx_global_var_init_27"];
+var __GLOBAL__sub_I_ColorMapping_cpp = Module["__GLOBAL__sub_I_ColorMapping_cpp"] = asm["__GLOBAL__sub_I_ColorMapping_cpp"];
 var _ColorVectorProperty_getNodeDefaultVectorSize = Module["_ColorVectorProperty_getNodeDefaultVectorSize"] = asm["_ColorVectorProperty_getNodeDefaultVectorSize"];
 var __GLOBAL__sub_I_ImprovedWalker_cpp = Module["__GLOBAL__sub_I_ImprovedWalker_cpp"] = asm["__GLOBAL__sub_I_ImprovedWalker_cpp"];
 var _ColorProperty_setAllNodeValue = Module["_ColorProperty_setAllNodeValue"] = asm["_ColorProperty_setAllNodeValue"];
@@ -12223,7 +12219,6 @@ var _Graph_getLocalBooleanProperty = Module["_Graph_getLocalBooleanProperty"] = 
 var __GLOBAL__sub_I_OGDFKamadaKawai_cpp = Module["__GLOBAL__sub_I_OGDFKamadaKawai_cpp"] = asm["__GLOBAL__sub_I_OGDFKamadaKawai_cpp"];
 var _Graph_getSuperGraph = Module["_Graph_getSuperGraph"] = asm["_Graph_getSuperGraph"];
 var _getViewCamera = Module["_getViewCamera"] = asm["_getViewCamera"];
-var __GLOBAL__sub_I_CurveEdges_cpp = Module["__GLOBAL__sub_I_CurveEdges_cpp"] = asm["__GLOBAL__sub_I_CurveEdges_cpp"];
 var __GLOBAL__sub_I_OGDFFastMultipoleEmbedder_cpp = Module["__GLOBAL__sub_I_OGDFFastMultipoleEmbedder_cpp"] = asm["__GLOBAL__sub_I_OGDFFastMultipoleEmbedder_cpp"];
 var _stringAlgorithmExists = Module["_stringAlgorithmExists"] = asm["_stringAlgorithmExists"];
 var __GLOBAL__sub_I_PageRank_cpp = Module["__GLOBAL__sub_I_PageRank_cpp"] = asm["__GLOBAL__sub_I_PageRank_cpp"];
@@ -12289,7 +12284,7 @@ var _GlGraphInputData_setElementSize = Module["_GlGraphInputData_setElementSize"
 var _i64Add = Module["_i64Add"] = asm["_i64Add"];
 var __GLOBAL__sub_I_CoinParamUtils_cpp = Module["__GLOBAL__sub_I_CoinParamUtils_cpp"] = asm["__GLOBAL__sub_I_CoinParamUtils_cpp"];
 var _LayoutProperty_center2 = Module["_LayoutProperty_center2"] = asm["_LayoutProperty_center2"];
-var ___cxx_global_var_init_5_331 = Module["___cxx_global_var_init_5_331"] = asm["___cxx_global_var_init_5_331"];
+var __GLOBAL__sub_I_GlQuadTreeLODCalculator_cpp = Module["__GLOBAL__sub_I_GlQuadTreeLODCalculator_cpp"] = asm["__GLOBAL__sub_I_GlQuadTreeLODCalculator_cpp"];
 var _GlGraphInputData_setElementFont = Module["_GlGraphInputData_setElementFont"] = asm["_GlGraphInputData_setElementFont"];
 var _GlGraphInputData_getElementFont = Module["_GlGraphInputData_getElementFont"] = asm["_GlGraphInputData_getElementFont"];
 var _GlGraphInputData_getElementLayout = Module["_GlGraphInputData_getElementLayout"] = asm["_GlGraphInputData_getElementLayout"];
@@ -12318,7 +12313,7 @@ var _GlGraphRenderingParameters_displayEdges = Module["_GlGraphRenderingParamete
 var _addSubGraph = Module["_addSubGraph"] = asm["_addSubGraph"];
 var _Graph_getLocalIntegerVectorProperty = Module["_Graph_getLocalIntegerVectorProperty"] = asm["_Graph_getLocalIntegerVectorProperty"];
 var _memcpy = Module["_memcpy"] = asm["_memcpy"];
-var __GLOBAL__sub_I_SpanningDagSelection_cpp = Module["__GLOBAL__sub_I_SpanningDagSelection_cpp"] = asm["__GLOBAL__sub_I_SpanningDagSelection_cpp"];
+var __GLOBAL__sub_I_Simple_cpp = Module["__GLOBAL__sub_I_Simple_cpp"] = asm["__GLOBAL__sub_I_Simple_cpp"];
 var _GlGraphInputData_getElementSelection = Module["_GlGraphInputData_getElementSelection"] = asm["_GlGraphInputData_getElementSelection"];
 var _IntegerVectorProperty_getEdgeValue = Module["_IntegerVectorProperty_getEdgeValue"] = asm["_IntegerVectorProperty_getEdgeValue"];
 var __GLOBAL__sub_I_OrientableSizeProxy_cpp = Module["__GLOBAL__sub_I_OrientableSizeProxy_cpp"] = asm["__GLOBAL__sub_I_OrientableSizeProxy_cpp"];
@@ -12327,7 +12322,7 @@ var __GLOBAL__sub_I_OGDFMMMExampleFastLayout_cpp = Module["__GLOBAL__sub_I_OGDFM
 var __GLOBAL__sub_I_GlScene_cpp = Module["__GLOBAL__sub_I_GlScene_cpp"] = asm["__GLOBAL__sub_I_GlScene_cpp"];
 var __GLOBAL__sub_I_OGDFPivotMDS_cpp = Module["__GLOBAL__sub_I_OGDFPivotMDS_cpp"] = asm["__GLOBAL__sub_I_OGDFPivotMDS_cpp"];
 var _IntegerProperty_getNodeDefaultValue = Module["_IntegerProperty_getNodeDefaultValue"] = asm["_IntegerProperty_getNodeDefaultValue"];
-var __GLOBAL__sub_I_Simple_cpp = Module["__GLOBAL__sub_I_Simple_cpp"] = asm["__GLOBAL__sub_I_Simple_cpp"];
+var __GLOBAL__sub_I_SpanningDagSelection_cpp = Module["__GLOBAL__sub_I_SpanningDagSelection_cpp"] = asm["__GLOBAL__sub_I_SpanningDagSelection_cpp"];
 var _Graph_getProperties = Module["_Graph_getProperties"] = asm["_Graph_getProperties"];
 var _Graph_delNodes = Module["_Graph_delNodes"] = asm["_Graph_delNodes"];
 var runPostSets = Module["runPostSets"] = asm["runPostSets"];
@@ -12375,6 +12370,7 @@ var __Z7my_loadv = Module["__Z7my_loadv"] = asm["__Z7my_loadv"];
 var ___getTypeName = Module["___getTypeName"] = asm["___getTypeName"];
 var _setViewBackgroundColor = Module["_setViewBackgroundColor"] = asm["_setViewBackgroundColor"];
 var _PropertyInterface_copy = Module["_PropertyInterface_copy"] = asm["_PropertyInterface_copy"];
+var __GLOBAL__sub_I_Random_cpp_6157 = Module["__GLOBAL__sub_I_Random_cpp_6157"] = asm["__GLOBAL__sub_I_Random_cpp_6157"];
 var _GlGraphInputData_getElementSize = Module["_GlGraphInputData_getElementSize"] = asm["_GlGraphInputData_getElementSize"];
 var _StringProperty_getEdgeValue = Module["_StringProperty_getEdgeValue"] = asm["_StringProperty_getEdgeValue"];
 var _GlGraphInputData_setElementShape = Module["_GlGraphInputData_setElementShape"] = asm["_GlGraphInputData_setElementShape"];
@@ -12418,7 +12414,7 @@ var __GLOBAL__sub_I_VoronoiDiagram_cpp = Module["__GLOBAL__sub_I_VoronoiDiagram_
 var __GLOBAL__sub_I_OGDFUpwardPlanarization_cpp = Module["__GLOBAL__sub_I_OGDFUpwardPlanarization_cpp"] = asm["__GLOBAL__sub_I_OGDFUpwardPlanarization_cpp"];
 var _Graph_setSource = Module["_Graph_setSource"] = asm["_Graph_setSource"];
 var _SizeProperty_getEdgeValue = Module["_SizeProperty_getEdgeValue"] = asm["_SizeProperty_getEdgeValue"];
-var __GLOBAL__sub_I_GlGraph_cpp = Module["__GLOBAL__sub_I_GlGraph_cpp"] = asm["__GLOBAL__sub_I_GlGraph_cpp"];
+var __GLOBAL__sub_I_CurveEdges_cpp = Module["__GLOBAL__sub_I_CurveEdges_cpp"] = asm["__GLOBAL__sub_I_CurveEdges_cpp"];
 var __GLOBAL__sub_I_OctreeBundle_cpp = Module["__GLOBAL__sub_I_OctreeBundle_cpp"] = asm["__GLOBAL__sub_I_OctreeBundle_cpp"];
 var _Graph_getSubGraph1 = Module["_Graph_getSubGraph1"] = asm["_Graph_getSubGraph1"];
 var _Graph_getSubGraph2 = Module["_Graph_getSubGraph2"] = asm["_Graph_getSubGraph2"];
@@ -18519,4 +18515,4 @@ if (workerMode) {
 
   return Module;
 };
-  if(typeof tulip == 'undefined') tulip = {};  if(typeof tulipConf == 'undefined') tulipConf = {};  this.tulip = tulip;  var scriptName = getScriptName();  var scriptPath = getScriptPath();  if(tulipConf.modulePrefixURL) tulip.modulePrefixURL = tulipConf.modulePrefixURL;  if(tulipConf.filePackagePrefixURL) tulip.filePackagePrefixURL = tulipConf.filePackagePrefixURL;  if(tulipConf.memoryInitializerPrefixURL) tulip.memoryInitializerPrefixURL = tulipConf.memoryInitializerPrefixURL;  if(tulipConf.TOTAL_MEMORY) tulip.TOTAL_MEMORY = tulipConf.TOTAL_MEMORY;  if(!tulip.modulePrefixURL) tulip.modulePrefixURL = scriptPath;  if(!tulip.filePackagePrefixURL) tulip.filePackagePrefixURL = scriptPath;  if(!tulip.memoryInitializerPrefixURL) tulip.memoryInitializerPrefixURL = scriptPath;  tulip.vizFeatures = true;  tulip.useWorker = true;  var xhr = new XMLHttpRequest();  xhr.open('GET', tulip.modulePrefixURL + 'tulip.wasm');  xhr.responseType = 'arraybuffer';  xhr.onload = function() {    tulip.wasmBinary = xhr.response;    tulip = tulipjs(tulip);    if (typeof define === 'function' && define.amd) define(tulip); else if (typeof module === 'object' && module.exports) module.exports = tulip;  };  xhr.send(null);}();
+  if(typeof tulip == 'undefined') tulip = {};  if(typeof tulipConf == 'undefined') tulipConf = {};  this.tulip = tulip;  var scriptName = getScriptName();  var scriptPath = getScriptPath();  if(tulipConf.modulePrefixURL) tulip.modulePrefixURL = tulipConf.modulePrefixURL;  if(tulipConf.filePackagePrefixURL) tulip.filePackagePrefixURL = tulipConf.filePackagePrefixURL;  if(tulipConf.memoryInitializerPrefixURL) tulip.memoryInitializerPrefixURL = tulipConf.memoryInitializerPrefixURL;  if(tulipConf.TOTAL_MEMORY) tulip.TOTAL_MEMORY = tulipConf.TOTAL_MEMORY;  if(!tulip.modulePrefixURL) tulip.modulePrefixURL = scriptPath;  if(!tulip.filePackagePrefixURL) tulip.filePackagePrefixURL = scriptPath;  if(!tulip.memoryInitializerPrefixURL) tulip.memoryInitializerPrefixURL = scriptPath;  tulip.vizFeatures = true;  tulip.useWorker = true;  tulip.isLoaded = function() {return false;};  var xhr = new XMLHttpRequest();  xhr.open('GET', tulip.modulePrefixURL + 'tulip.wasm');  xhr.responseType = 'arraybuffer';  xhr.onload = function() {    tulip.wasmBinary = xhr.response;    tulip = tulipjs(tulip);    if (typeof define === 'function' && define.amd) define(tulip); else if (typeof module === 'object' && module.exports) module.exports = tulip;  };  xhr.send(null);}();
