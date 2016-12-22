@@ -45,6 +45,16 @@
       height:100%;
     }
 
+    #error-div {
+      position: absolute;
+      top: 40%;
+      left: 20%;
+      right: 20%;
+      text-align: center;
+      vertical-align: middle;
+      height:100%;
+    }
+
     </style>
 
   </head>
@@ -87,7 +97,10 @@
             <p>&nbsp;</p>
             <p id='spinner-caption'> Downloading and initializing tulip.js ... </p>
           </div>
-
+        </div>
+        <div id="error-div" style="visibility:hidden">
+          <img src="error.png" style="width:80px;height:80px">
+          <p id="error-caption"></p>
         </div>
       </div>
 
@@ -573,16 +586,18 @@
   }
 
   function initTulipView() {
-    if (typeof tulip == 'undefined' || !tulip.isLoaded()) {
-      setTimeout(initTulipView, 1000);
-    } else {
+    tulip.init().then(function() {
       $('#spinner-div').hide();
       $('#tulip-view').css('vertical-align', 'baseline');
       var container = document.getElementById("tulip-view");
       tulipView = tulip.View(container, window.innerWidth-50, window.innerHeight-80);
       renderingParameters = tulipView.getRenderingParameters();
       loadGraphFromDataFolder("programming_language_network.tlp.gz");
-    }
+    }).catch(function(err) {
+      $('#spinner-div').hide();
+      $("#error-div").css("visibility", "visible");
+      $("#error-caption").text("Error while loading tulip.js : " + err);
+    });
   }
 
   function resize() {
@@ -593,6 +608,7 @@
   }
 
   $( document ).ready(function() {
+
     $('#tulip-view').width(window.innerWidth-50);
     $('#tulip-view').height(window.innerHeight-80);
     window.addEventListener('resize', resize, false);
@@ -615,16 +631,9 @@
     $(".rendering-params-modifier").change(function(){
       applyRenderingParameters();
     });
-
-    var oHead = document.head || document.getElementsByTagName("head")[0];
-    var oScript = document.createElement("script");
-    oScript.type = "text\/javascript";
-    oHead.appendChild(oScript);
-    oScript.src = "tulip.js";
-
-    initTulipView();
   });
 
   </script>
+  <script async type="text/javascript" src="tulip.js" onload="initTulipView()"></script>
 
 </html>

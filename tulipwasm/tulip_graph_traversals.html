@@ -4,7 +4,6 @@
     <head>
       <meta charset="utf-8">
       <title>Tulip DFS Test</title>
-      <script async type="text/javascript" src="tulip.js"></script>
       <link rel="icon" type="image/x-icon" href="favicon.ico" />
       <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css">
       <style type="text/css">
@@ -76,20 +75,17 @@
  }
 
  function initTulipView() {
-   if (typeof tulip == 'undefined' || !tulip.isLoaded()) {
-     setTimeout(initTulipView, 1000);
-   } else {
+   tulip.init().then(function() {
      var spinners = document.getElementsByClassName("spinner-loader");
      for (var i = 0 ; i < spinners.length ; ++i) {
        spinners[i].style.display = 'none';
      }
      tulipView = tulip.View('tulip-view');
      tulipView.loadGraphFromFile('data/complete_tree.tlp.gz', false, graphLoadedCallback);
-   }
+   });
  }
 
- initTulipView();
-
 </script>
+<script async type="text/javascript" src="tulip.js" onload="initTulipView()"></script>
 
 </html>
